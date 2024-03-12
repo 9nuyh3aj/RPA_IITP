@@ -110,7 +110,7 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
           <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
           <av:Size x:Key="ShapeSize">60,75</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,162</av:PointCollection>
+          <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,202</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <Flowchart.StartNode>
@@ -119,11 +119,11 @@
       <FlowStep x:Name="__ReferenceID0">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">200,162</av:Point>
+            <av:Point x:Key="ShapeLocation">200,202</av:Point>
             <av:Size x:Key="ShapeSize">200,56</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="한마루 로그인" DisplayName="COM_LoginHanmaru.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="334,144" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="COM_LoginHanmaru.xaml">
+        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="한마루 로그인" DisplayName="COM_LoginHanmaru.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="200,56" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="COM_LoginHanmaru.xaml">
           <ui:InvokeWorkflowFile.Arguments>
             <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="i_config">
               <CSharpValue x:TypeArguments="scg:Dictionary(x:String, x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">i_config</CSharpValue>
